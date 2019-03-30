@@ -1,0 +1,1 @@
+scoreboard players add @a[tag=timing] timer_raw_tick 1
