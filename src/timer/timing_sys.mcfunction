@@ -1,1 +1,1 @@
-scoreboard players add @e[tag=timer,c=1,y=-5] timer_raw_tick 1
+scoreboard players add @e[tag=timer,c=1,y=-5] timer_raw 1

@@ -1,2 +1,2 @@
-scoreboard players operation @p = @e[tag=timer,c=1] raw_tick
+scoreboard players operation @p timer_raw = @e[tag=timer,c=1] timer_raw
 tellraw {"text": "Timer Start!"}

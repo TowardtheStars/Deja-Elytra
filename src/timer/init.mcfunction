@@ -8,4 +8,4 @@ scoreboard objectives add sec_per_min dummy
 summon villager ~ -5 ~ {NoAI:1,Invulnerable:1,Tags:["timer"],CustomName:"Timer"}
 scoreboard players set @e[tag="timer",c=1] tick_per_sec 20
 scoreboard players set @e[tag="timer",c=1] sec_per_min 60
-scoreboard players set @e[tag="timer",c=1] tick_raw 0
+scoreboard players set @e[tag="timer",c=1] timer_raw 0
